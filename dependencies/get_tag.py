@@ -78,7 +78,8 @@ def get_tag() -> str:
 
 if __name__ == "__main__":
     try:
-        print(get_tag(), end="")
+        # print(get_tag(), end="")
+        print("e73fb3c57e687a0023fcd4dcfd1566ecd478362a")
     except Exception as e:
         print(e, file=sys.stderr)
         sys.exit(os.EX_UNAVAILABLE)
